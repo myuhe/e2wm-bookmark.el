@@ -1,12 +1,13 @@
 ;;; e2wm-bookmark.el --- Bookmark plugin for e2wm.el
 
-;; Author: myuhe
-;; URL: 
+;; Copyright (C) 2011, 2012 Yuhei Maeda <yuhei.maeda_at_gmail.com>
+;; Author: Yuhei Maeda <yuhei.maeda_at_gmail.com>
+;; Maintainer: Yuhei Maeda <yuhei.maeda_at_gmail.com>
 ;; Version: 0.1
-;; Created: 2011-07-05
-;; Keywords:  window manager, convenience, e2wm
+;; Package-version: 0.1
 ;; Package-Requires: ((e2wm "1.2"))
-;; Copyright (C) 2011 myuhe
+;; Created: 2011-07-05
+;; Keywords: convenience
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -22,11 +23,15 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
+;;
 ;; e2wm is window manager. e2wm makes windowlayout easy.
 ;; e2wm-bookmark is a plugin for e2wm. this provides small window
 ;; to manage bookmarks. this cooperate with files plugin and 
 ;; buffer history plugin.
+;;
+
+
+;;; Code:
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;require
