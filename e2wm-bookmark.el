@@ -171,7 +171,7 @@
 Mark the file, using MARK-CHAR,  on current line (or next ARG lines). 
 ALL is non-nil , all file mark.
 Japanese:
-¥Õ¥¡¥¤¥ë¤Ë¥Ş¡¼¥¯¤ò¤Ä¤±¤ë¡£ALL¤¬non-nil¤Î»ş¤ÏÁ´¤Æ¤Î¥Õ¥¡¥¤¥ë¤Ë¥Ş¡¼¥¯¤¬¤Ä¤±¤é¤ì¤ë¡£"
+ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒãƒ¼ã‚¯ã‚’ã¤ã‘ã‚‹ã€‚ALLãŒnon-nilã®æ™‚ã¯å…¨ã¦ã®ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒãƒ¼ã‚¯ãŒã¤ã‘ã‚‰ã‚Œã‚‹ã€‚"
   (let ((buffer-read-only nil)
         move)
     (save-excursion
