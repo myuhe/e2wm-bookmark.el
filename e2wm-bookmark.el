@@ -246,7 +246,6 @@ Optional prefix ARG says how many lines to move; default is one line."
   (e2wm:history-add(current-buffer)))
 
 (defun e2wm:def-plugin-bookmarks-rename ()
-  (interactive)
   "Rename bookmark on current line.  Prompts for a new name."
   (interactive)
   (let ((bmrk (e2wm:def-plugin-bookmarks-list-object))
